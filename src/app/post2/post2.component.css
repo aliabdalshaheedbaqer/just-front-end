@@ -1,0 +1,52 @@
+@import '/app/home/home.component.css';
+
+.summary {
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 95px;
+    overflow: hidden;
+    width: auto;
+    text-align: right;
+    margin-top: 4px;
+}
+
+a.desc {
+    float: right;
+    color: #487fb0;
+    font-family: FC-M;
+    font-size: 1.3vw;
+    margin-top: 1vw;
+}
+p.ph {
+    text-align: right;
+    font-size: 0.88vw;
+    color: black;
+    margin-top: 3.5vw;
+}
+
+
+.Symptoms , .protection , .treatment {
+    float: right;
+    direction: rtl;
+    text-align: right;
+}
+
+
+.Symptoms  > ul > li > a
+, .protection  > ul > li > a
+, .treatment > ul > li > a
+ {
+
+    color:#000;
+    text-decoration: none;
+    font-size: 1vw;
+}
+
+.Symptoms  > a ,
+ .protection  > a , 
+ .treatment > a {
+
+    color: #487fb0;
+    font-family: FC-M;
+    font-size: 1.3vw;
+}

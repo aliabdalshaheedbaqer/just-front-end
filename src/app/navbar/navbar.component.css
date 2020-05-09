@@ -1,0 +1,419 @@
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 100px;
+   
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+background: #f7f7f7;
+    border-radius: 5px;
+margin: 20px;
+    
+    
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #487eb0; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #416e98; 
+  }
+
+  
+::placeholder {
+    color: #d7d7d7;
+  }
+
+.uk-navbar-right {
+    flex-wrap: inherit;
+}
+
+.uk-navbar {
+    height: 50px;
+    overflow: hidden;
+    background: #f7f7f7;
+}
+
+.uk-navbar-nav>li.uk-active>a {
+    color: #40739E;
+    text-shadow: 0 0 1px #000;
+}
+
+.uk-navbar-nav>li>a {
+    color: #487EB0;
+}
+
+.uk-navbar-left{
+ flex-wrap: unset; 
+}
+
+.uk-navbar-nav > li > a:hover {
+    color: #406e7d;
+    text-shadow: 0 0 1px #000;
+    transition: all .2s;
+}
+
+.uk-modal-dialog.uk-modal-body.uk-margin-auto-vertical {
+    width: 70%;
+    height: 90%;
+    overflow: hidden;
+}
+#container a{
+    font-family: FC-M;
+    color: #487fb0;
+}
+.uk-modal-dialog.uk-modal-body.uk-margin-auto-vertical2 {
+    height: 100%;
+    text-align: center;
+    margin-right: 12vw;
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+}
+
+#Add-Note {
+    margin-top: 0;
+    padding-top: 4.5vw;
+}
+
+.uk-margin {
+    font-size: 1vw;
+    width: 40%;
+    text-align: right;
+}
+
+.uk-margin a {
+    margin-left: 10px;
+    color: #487eb0;
+    font-family: FC-m;
+}
+
+input.uk-input.uk-form-width-medium {
+    width: 20vw;
+    height: 100%;
+}
+
+#container {
+    height: 100%;
+
+    margin-bottom: 1vw;
+height: auto;
+margin-top: -1.4vw;    overflow: hidden;
+
+    padding: 0;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    padding: 4vw 5vw 2vw 0;
+}
+
+textarea {
+    resize: none;
+    border: 1px solid #e5e5e5;
+    transition: all .2s;
+    color: #adadad;
+    padding-right: 10px;
+    padding-left: 8px;
+    font-size: 1vw;
+}
+
+textarea:focus {
+    outline: 0;
+    border-color: #1e87f0;
+    transition: all .2s;
+}
+
+.Add-Photo {
+    height: 50%;
+    background: #487fb0;
+    width: 30%;
+    float: left;
+    margin-left: 10vw;
+    border-radius: 1vw;
+    box-shadow: 0 0 5px 0 #bdbdbd;
+    margin-top: -2vw;
+}
+
+
+h4.add {
+    color: #fff;
+    font-family: fc-m;
+    margin-top: 7vw;
+    cursor: pointer;
+}
+
+.submit {
+    margin-top: 24vw;
+    margin-left: 10vw;
+}
+
+
+input[type="button"] {
+    background: #487fb0;
+    cursor: pointer;
+    color: #fff;
+    font-family: Fc-m;
+    border: none;
+    padding: 5px 25px 5px 25px;
+    border-radius: 2px;
+}
+
+textarea , input {
+
+color: black;
+
+}
+
+
+.right-one {
+    float: right;
+    width: 50%;
+    height: fit-content;
+    margin-top: 2vw;
+}
+
+.left-one {
+    float: left;
+    height: fit-content;
+    width: 50%;
+    overflow: hidden;
+}
+
+
+.add-1 a {
+    float: right;
+    line-height: 8;
+    color: #487eb0;
+    font-family: FC-m;
+}
+
+.add-2 a {
+    float: right;
+    color: #487eb0;
+    font-family: FC-m;
+    
+}
+.add-2{margin-left: 6vw;margin-bottom: 4vw;}
+textarea#HG{width: 65%;}
+
+
+.add-3 a {
+    float: right;
+    color: #487eb0;
+    font-family: FC-m;
+    margin-left: 1vw;
+    
+}
+.add-3{margin-left: 6vw;overflow: hidden; margin-bottom: 2vw;}
+
+
+.body {
+    width: auto;
+    height: 8vw;
+    margin-right: 6vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: 1vw;
+    box-shadow: 1px 4px 4px 0 #f1e3e3;
+    overflow: hidden;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.content-body {
+    width: 90%;
+    height: 100%;
+    margin-right: 2.32vw;
+    overflow-y: scroll;
+
+}
+
+input#add:focus {
+    outline: none;
+}
+
+input#add {
+    float: right;
+    margin-top: 10px;
+    background: none;
+    border: none;
+    font-family: FC;
+    font-size: 0.68vw;
+    color: #000;
+    width: 15vw;
+    border-bottom: 2px dotted #487fb0;
+    margin-left: 2vw;
+}
+
+.submitd {
+    text-align: center;
+    margin-right: 46.4%;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 38.8%;
+}
+
+.submitd1 {
+    text-align: center;
+    margin-right: 46.4%;
+    height: fit-content;
+    width: fit-content;
+
+    margin-top: 0;
+}
+
+.add-group {
+    width: 60%;
+    overflow: hidden;
+    padding: 2vw 2vw 2vw 0;
+    display: inline-block;
+}
+
+
+.photo-g {
+    width: 33%;
+    float: left;
+    padding-left: 2vw;
+}
+.add-ph a {color:#fff;     margin-top: 42%;
+    display: inline-block;}
+.add-ph {
+    margin-top: 3vw;
+    background: #487eb0;
+    text-align: center;
+    width: 75%;
+    height: 15vw;
+    border-radius: 20px;
+    box-shadow: 0 0 4px 0 #cecece;
+}
+
+
+
+@media screen and (max-width:1000px) {
+    
+.submitd1 {
+
+
+    margin-top: 20vw;
+}
+
+    .photo-g {width:100%;padding: 0;}
+
+    .add-ph {width: 100%;}
+    
+    .add-ph a { margin-top: 12%;}
+    
+    .uk-modal-dialog.uk-modal-body.uk-margin-auto-vertical {
+        overflow: hidden scroll;
+      
+    }
+    .add-group {
+        width: 100%;
+        margin: 0vw 2vw 0vw 2vw;
+        padding: 0;
+    }
+    
+    .add-3 {font-size: 1.4vw;}
+    
+    .left-one {
+        width: 100%;
+    }
+    .uk-textarea {margin-left: 8px;font-size: 1.2vw;}
+
+    .uk-modal-dialog.uk-modal-body.uk-margin-auto-vertical2 {
+        overflow: hidden scroll;}
+    .add-1{
+
+    margin-right: 8vw;
+    margin-left: 8vw;
+    }
+    .add-2 a {        font-size: 2vw;}
+    .add-1 a {
+
+        margin-top: 6vw;
+        margin-left: 2vw;
+        line-height: 0;
+        font-size: 2vw;
+    }
+
+    .body {
+        height: 12vw;
+        margin-bottom: 4vw;
+        margin-right: 7vw;
+    }
+    
+    .right-one {
+        float: right;
+        width: 100%; }
+
+        input#add { font-size: 1vw;}
+
+
+
+}
+
+
+@media screen and (max-width:768px) {
+
+    .submitd1 {
+
+
+        margin-top: 24vw;
+        margin-right: 34.4%;
+    }
+    
+
+    .add-ph a { margin-top: 10%;}
+
+input#add {
+    font-size: 1.2vw;
+    margin-left: 1vw;
+    width: 25vw;
+    
+}
+.body {height: 13.5vw;
+}
+.add-3 {
+    margin-left: 0vw;
+}
+}
+@media screen and (max-width:640px) {
+
+    input#add {
+        width: 100%;
+    }
+
+    .content-body {
+        padding-left: 2vw;
+    }
+
+    .body {height: 15vw;
+    }
+
+    .right-one {
+        margin-right: 2vw;
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    .add-ph a { margin-top: 8%;}
+
+.body {
+    height: 21vw;
+}
+
+.uk-modal-dialog.uk-modal-body.uk-margin-auto-vertical {
+    width: 100%;
+}
+
+}

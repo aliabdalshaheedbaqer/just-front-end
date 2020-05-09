@@ -1,0 +1,131 @@
+<body>
+
+
+
+<div id='Content'>
+<div class='right-one' id='wsm'>
+
+  <img src='../../assets/img/Home.jpg' alt="صحتك مهمة">
+
+
+<div class='Show-Post'>
+  <a style='color:#fff;background:#487fb0;'>منشورات المعلومات الطبية</a>
+
+
+  <a routerLink='/post2' style='margin-top: 20px;'>منشورات الأمراض</a>
+
+
+</div>
+
+ 
+</div>
+
+<div class='left-one' id='res'>
+<div class='both' id='One'>
+ 
+<div class='posts'>
+ <div><a class='Main-Title'>صفحة المعلومات الطبية</a></div>
+
+<div class='post-block' id='post-block' dir='rtl'>
+
+  <div class='Post' id='rsp'>
+    <div class='post-content'>
+      
+      <div class='Title'><a>عنوان المقالة</a></div>
+      <img class='image' src='../../assets/img/test.jpg' />
+      <div class='summary'><textarea disabled>القطط، أكثر الحيوانات قرباً من الإنسان، وهي حيوانات أليفة، يربيها كثير من الأشخاص، وتعيش مع الناس منذ ما يزيد على سبعة آلاف عام، وتنتمي القطط للثديّات، وهناك الكثير من أنواع القطط، التي تختلف في الأشكال والألوان والأحجام</textarea></div>
+      </div>
+  
+  
+      <div class='under'>
+      <div class='edit'><a href="#Add-Note" uk-toggle><img style='height: 16px;
+      padding-bottom: 2px;' src='../../assets/Icon/2.png' /></a></div>
+      <div class='remove'><a  href="#remove-post" uk-toggle><img src='../../assets/Icon/1.png' /></a></div>
+      <button class='Show' ><a href="#Show-Post-Button" uk-toggle>عرض</a></button>
+      
+  
+  
+      </div>
+      
+      
+      
+      
+        </div>
+       
+   
+   
+             
+</div>
+
+
+</div>
+
+
+<button class='show-more' id='brs' (click) = "showMore()"><a>عرض المزيد</a></button>
+
+</div>
+
+<div class="res-button" style='display:none;' id='show-at'><button (click)="showLess()" class="show-less" id="b2rs" style="display: block;"><a _ngcontent-yfv-2="">عرض أقل</a></button></div>
+
+
+
+</div>
+
+</div>
+</body>
+
+
+
+
+
+
+<!--عرض المنشور-->
+
+<div id="Show-Post-Button" class="uk-flex-top" uk-modal>
+  <div id='more-icon'>
+  <div class='remove1'><a href="#remove-post" uk-toggle><h1>حذف المنشور</h1><img src='../../assets/Icon/1.png' /></a></div>
+  <div class='edit1'><a href="#Add-Note" uk-toggle><h1>تعديل المنشور</h1><img style='height: 18px;
+    padding-bottom: 2px;
+    margin-left: 5px;
+    margin-top: 4px;' src='../../assets/Icon/2.png' /></a></div>
+</div>
+
+
+      <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+        
+      <button class="uk-modal-close-default" type="button" uk-close></button>
+      <div class='Title' style='border:none;margin-top: -20px;margin-bottom: 5px;'><a style='color:#487fb0;font-family: FC-M;'>عنوان المقالة</a></div>
+  
+      <div id='post-content-show' dir='rtl'>
+        <ul class="uk-thumbnav" uk-margin>
+          <li class="uk-active"><a href="#"><img src="../../assets/Img/test.jpg" width="100" alt=""></a></li>
+          </ul>
+          <p class='ph'>القطط، أكثر الحيوانات قرباً من الإنسان، وهي حيوانات أليفة، يربيها كثير من الأشخاص، وتعيش مع الناس منذ ما يزيد على سبعة آلاف عام، وتنتمي القطط للثديّات، وهناك الكثير من أنواع القطط، التي تختلف في الأشكال والألوان والأحجام</p>
+  </div>
+  
+  
+  
+  
+  
+      </div>
+</div>
+  
+
+<!--حذف المنشور-->
+<div id='remove-post' class="uk-flex-top" uk-modal>
+
+  <div class="uk-modal-dialog uk-modal-body">
+
+    <div class="uk-modal-header" style='border:none;'>
+      <h2 class="uk-modal-title" style='font-family: FC;text-align: center;'>هل تود حذف المنشور</h2>
+    </div>
+    <div class="uk-modal-footer uk-text-right" style='margin-top: 20px;padding: unset;border: none;'>
+      <button class="uk-button uk-button-default uk-modal-close" type="button">رجوع</button>
+      <button class="uk-button uk-button-danger" type="button">حذف</button>
+  </div>
+</div>
+
+
+</div>
+
+

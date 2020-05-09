@@ -1,0 +1,441 @@
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 100px;
+   
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+background: #f7f7f7;
+    border-radius: 5px;
+margin: 20px;
+    
+    
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #487eb0; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #416e98; 
+  }
+
+
+
+
+
+
+
+
+div#Content {
+    height: auto;
+    margin: 10px 2vw 0 2vw;
+    overflow: hidden;
+    border-radius: 1vw;
+    text-align: center;
+
+
+}
+
+.posts {overflow:auto;}
+
+.right-one {
+    float: right;
+   
+    height: 100%;
+    width: 35%;
+    overflow: hidden;
+}
+
+.left-one {
+    float: left;
+    height: 41vw;
+    width: 65%;
+    overflow: hidden;
+    
+    
+}
+.posts {
+    float: left;
+    background: #fefefe;
+    height: 95%;
+    width: 100%;
+}
+
+.right-one img {
+    padding: 0px 40px 0px 40px;
+    height: 18vw;
+    margin-top: 3vw;
+}
+.show-more {
+    float: left;
+    width: 100%;
+    background: #477084;
+    height: 5%;
+    border: none;
+}
+
+
+.show-less {
+    width: 8%;
+    background: #477084;
+    height: 5%;
+    border: none;
+    border-radius: 22vw;
+
+    font-size: 1.1vw;
+}
+
+.res-button {
+    width: 100%;
+    margin-right: 50%;
+    overflow: hidden;
+}
+.both {
+    width: 90%;
+    height: 97%;
+    border-radius: 1vw;
+    float: left;
+    margin: 10px 0px 0px 40px;
+    box-shadow: 0 0 7px 0px #929292;
+    overflow: hidden;
+    padding-top: 5px;
+
+}
+
+button.show-more a ,button.show-less a {
+    color: #fff;
+}
+
+
+
+a.Main-Title {
+    color: #416e7e;
+    font-weight: bolder;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.Show-Post {
+    display: grid;
+    font-family: FC-M;
+    font-size: 16px;
+    margin-right: 60px;
+    font-weight: bolder;
+    margin-left: 60px;
+    margin-top: 2vw;
+}
+
+.Show-Post a {
+    background: #f7f7f7;
+    border-radius: 30px;
+    height: auto;
+    padding: 20px;
+    color: #487fb0;
+    box-shadow: 0 0 3px 0 #b1b1b1;
+
+}
+
+.Show-Post a:hover  {
+    outline: none;
+    text-decoration: none;
+  }
+
+
+  .Post {
+    height: 30%;
+    background: #fff;
+    width: 26vw;
+    overflow: hidden;
+    margin: 12px 12px 1px 2px;
+    box-shadow: 0 0 7px 0 #d6d6d6;
+    border-radius: 5px;
+}
+
+
+
+
+
+.post-block {
+    display: inline-flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    overflow: hidden;
+    float: right;
+}
+
+.Title {
+    border-bottom: 1.5px #608bae;
+    border-bottom-style: solid;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.Title a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1vw;
+}
+img.image {
+    height: 90px;
+    float: right;
+    width: 28%;
+    margin-right: 20px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.summary {
+    margin-right: 126px;
+    margin-left: 19px;
+    height: 95px;
+    overflow: hidden;
+    width: auto;
+    text-align: right;
+    margin-top: 4px;
+}
+.summary textarea {
+    height: 88%;
+    font-family: FC;
+    width: 100%;
+    overflow: hidden;
+    font-size: 9px;
+    border: none;
+    color: #cacaca;
+    resize: none;
+    background: none;
+}
+button.Show {
+    float: left;
+    border: none;
+    background: #477084;
+    margin-top: -2px;
+    width: 60px;
+}
+
+
+
+button.Show a{
+    color: #fff;
+
+}
+
+
+.edit {
+    width: 25px;
+    height: 24px;
+    float: right;
+    border: none;
+    background: #487fb0;
+}
+
+
+.remove {
+    width: 25px;
+    height: 24px;
+    float: right;
+    border: none;
+    background: #f83f3f;
+    margin-right: 8px;
+}
+
+
+
+.uk-modal-dialog.uk-modal-body.uk-margin-auto-vertical {
+    height: 100%;
+    margin-right: initial;
+    width: 35%;
+    text-align: center;
+    
+}
+
+.uk-thumbnav>* {
+    margin-top: 1vw;
+}
+
+li.uk-active.uk-first-column img {
+    width: 40%;
+    border-radius: 1vw;
+}
+
+#post-content-show {
+    height: inherit;
+    width: 100%;
+    padding: 0px 5px 10px 5px;
+    overflow: hidden scroll;
+}
+p.ph {
+    text-align: right;
+    font-size: 1.1vw;
+    color: black;
+}
+
+div#remove-post {
+    padding-top: 15vw;
+}
+
+.remove1 {
+    position: absolute;
+        top: 21%;
+        right: 35.3%;
+        width: 25px;
+        height: 24px;
+        float: right;
+        border: none;
+        background: #f83f3f;
+        margin-right: 8px;
+    }
+    
+    .remove1:hover {
+        width: 90px;
+        transition: width .2s;
+    }
+    .remove1 img {
+        height: 26px;
+        float: left;
+        margin-left: 1px;
+    }
+    .remove1 img:hover {
+        margin-left: 3px;
+    }
+    .remove1 h1 {
+        font-size: 1px;
+        font-family: FC;
+        color: #fff;
+        position: absolute;
+        top: -1px;
+        right: -70px;
+        width: 12vw;
+        height: 2vw;
+        transition: all .2s;
+        margin: 0;
+    }
+    
+    .remove1 h1:hover {
+        top: 6px;
+        right: 2px;
+        font-size: 10px;
+        transition: all .2s;
+    }
+
+.edit1 {
+    position: absolute;
+        top: 15%;
+        right: 35.3%;
+        width: 25px;
+        height: 24px;
+        float: right;
+        border: none;
+        background: #487fb0;
+        margin-right: 8px;
+    }
+    
+    .edit1:hover {
+        width: 90px;
+        transition: width .2s;
+    }
+    .edit1 img {
+        height: 26px;
+        float: left;
+        margin-left: 1px;
+    }
+    .edit1 img:hover {
+        margin-left: 3px;
+    }
+    .edit1 h1 {
+        font-size: 1px;
+        font-family: FC;
+        color: #fff;
+        position: absolute;
+        top: -1px;
+        right: -70px;
+        width: 12vw;
+        height: 2vw;
+        transition: all .2s;
+        margin: 0;
+    }
+    
+    .edit1 h1:hover {
+        top: 6px;
+        right: 2px;
+        font-size: 10px;
+        transition: all .2s;
+    }
+
+
+    @media screen and (max-width:1100px) {
+
+        #Content {
+            margin: 0vw;
+            padding: 0 0 5vw 0;
+        }
+        .left-one {
+            width: 100%;
+            margin-top: 4vw;
+            height: 50vw;
+
+        }
+
+        .right-one {
+            width: 100%;
+
+        }
+
+
+
+      }
+
+
+      
+
+
+    @media screen and (max-width:980px) {
+
+        #rsp {
+            width: 38.5vw;
+        }
+        .left-one {
+            height: 120vw;
+        }
+            .Title a {
+                font-size: 1.4vw;
+            }
+
+    
+    }
+
+    @media screen and (max-width:670px) {
+    #rsp {
+        width: 100%;
+        margin-right: 15vw;
+        margin-left: 15vw;
+    }
+
+    .left-one {
+        height: 150vw;
+        margin-left: -3vw;        }
+
+        .Title a{
+            font-size: 2vw;
+        }
+
+
+}
+
+@media screen and (max-width:530px) {
+    #rsp {
+margin-right: 5vw;
+margin-left: 5vw;
+
+
+
+}
+.summary{
+    margin-right: 135px; }
+
+}
